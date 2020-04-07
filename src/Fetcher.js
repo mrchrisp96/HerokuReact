@@ -26,9 +26,9 @@ export default function Fetcher(props) {
             <button onClick={doSomething} data-something="Default">
                 Default</button>
             <p>{response && JSON.stringify(response) || 'waiting' }</p>
-            <Skeleton variant="text" />
-            <Skeleton variant="circle" width={40} height={40} />
-            <Skeleton variant="rect" width={210} height={118} />
+            <Skeleton />
+            <Skeleton animation={false} />
+            <Skeleton animation="wave" />
         </React.Fragment>
 
     );
