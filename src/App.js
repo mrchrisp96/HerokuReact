@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Fetcher from './Fetcher';
-import Hooks from './Hooks';
+import Hooks, {aFunc} from './Hooks';
 
 function App() {
   return (
     <div className="App">
-      <Hooks/>
+      <Hooks name = {'Chris'}/>
     </div>
   );
 }
