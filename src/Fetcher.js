@@ -25,6 +25,5 @@ export default function Fetcher(props) {
                 Default</button>
             <p>{(response && JSON.stringify(response)) || 'waiting' }</p>
         </React.Fragment>
-
     );
 }
