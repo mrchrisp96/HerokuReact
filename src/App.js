@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Fetcher from './Fetcher';
-import Hooks, {aFunc} from './Hooks';
+import Hooks from './Hooks';
 
 function App() {
   return (
