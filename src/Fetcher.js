@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Skeleton from '@material-ui/lab/Skeleton';
+
 
 export default function Fetcher(props) {
     const { classes, url } = props;
