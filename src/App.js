@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Fetcher from './Fetcher';
 import Hooks, {aFunc} from './Hooks';
-import Skeleton
+import Skeleton from '@material-ui/lab/Skeleton';
 
 function App() {
   return (
