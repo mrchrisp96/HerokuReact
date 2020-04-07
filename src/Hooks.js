@@ -17,6 +17,9 @@ export default function Hooks(props) {
             <p>click count:{clicks}, {clicks2}</p>
             <button onClick={doSomething} data-something="Default">
                 Default</button>
+            <Skeleton />
+            <Skeleton animation={false} />
+            <Skeleton animation="wave" />
         </React.Fragment>
 
     );
