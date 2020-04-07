@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Fetcher from './Fetcher';
 import Hooks, {aFunc} from './Hooks';
-
+import Skeleton
 
 function App() {
   return (
