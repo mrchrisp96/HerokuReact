@@ -22,6 +22,5 @@ export default function Hooks(props) {
             <Skeleton variant="text" />
             <Skeleton variant="rect" width={210} height={118} />
         </React.Fragment>
-
     );
 }
